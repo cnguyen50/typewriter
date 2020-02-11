@@ -8,5 +8,64 @@ const typewriter = function(sentence) {
     }, timer)
     timer += 50;
   }
-}
+  const newLine = () => console.log("\n");
+
+  setTimeout(newLine,2000);
+
+
+};
+
+
 typewriter(sentence);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const typewriter = function() {
+//   let sentenceArray = sentence.split('');
+//   for (let i = 0; i < sentence.length; i++) {
+//     setTimeout(() => {
+//       process.stdout.write(sentenceArray[i]);
+//       if (i === sentence.length - 1) {
+//         process.stdout.write('\n');
+//       }
+//     }, 50 * i);
+//   }
+// };
+
+// typewriter();
